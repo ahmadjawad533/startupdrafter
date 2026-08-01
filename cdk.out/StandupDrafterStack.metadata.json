@@ -1,0 +1,557 @@
+{
+  "/StandupDrafterStack": [
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "<anonymous> (/home/jawad533/Kiro Project/bin/standup-drafter.ts:8:1)",
+        "...node internals, ts-node, ts-node, ts-node..."
+      ]
+    }
+  ],
+  "/StandupDrafterStack/UpdatesTable": [
+    {
+      "type": "aws:cdk:hasPhysicalName",
+      "data": {
+        "Ref": "UpdatesTableAB0A8B4D"
+      }
+    }
+  ],
+  "/StandupDrafterStack/UpdatesTableName": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "UpdatesTableName"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "new StandupDrafterStack (/home/jawad533/Kiro Project/lib/standup-drafter-stack.ts:30:5)",
+        "<anonymous> (/home/jawad533/Kiro Project/bin/standup-drafter.ts:8:1)",
+        "...node internals, ts-node, ts-node..."
+      ]
+    }
+  ],
+  "/StandupDrafterStack/ApiEndpoint": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "ApiEndpoint"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "new StandupDrafterStack (/home/jawad533/Kiro Project/lib/standup-drafter-stack.ts:101:5)",
+        "<anonymous> (/home/jawad533/Kiro Project/bin/standup-drafter.ts:8:1)",
+        "...node internals, ts-node, ts-node..."
+      ]
+    }
+  ],
+  "/StandupDrafterStack/Custom::S3AutoDeleteObjectsCustomResourceProvider": [
+    {
+      "type": "aws:cdk:is-custom-resource-handler-customResourceProvider",
+      "data": true
+    }
+  ],
+  "/StandupDrafterStack/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C": [
+    {
+      "type": "aws:cdk:is-custom-resource-handler-singleton",
+      "data": true
+    },
+    {
+      "type": "aws:cdk:is-custom-resource-handler-runtime-family",
+      "data": 2
+    }
+  ],
+  "/StandupDrafterStack/WebsiteURL": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "WebsiteURL"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "new StandupDrafterStack (/home/jawad533/Kiro Project/lib/standup-drafter-stack.ts:128:5)",
+        "<anonymous> (/home/jawad533/Kiro Project/bin/standup-drafter.ts:8:1)",
+        "...node internals, ts-node, ts-node..."
+      ]
+    }
+  ],
+  "/StandupDrafterStack/BootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "BootstrapVersion"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/StandupDrafterStack/CheckBootstrapVersion": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CheckBootstrapVersion"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/StandupDrafterStack/UpdatesTable/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "UpdatesTableAB0A8B4D"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new Table2 in aws-cdk-lib...",
+        "new StandupDrafterStack (/home/jawad533/Kiro Project/lib/standup-drafter-stack.ts:15:26)",
+        "<anonymous> (/home/jawad533/Kiro Project/bin/standup-drafter.ts:8:1)",
+        "...node internals, ts-node, ts-node..."
+      ]
+    }
+  ],
+  "/StandupDrafterStack/GeneratorFunction/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GeneratorFunction36E4EF26"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new Function2 in aws-cdk-lib...",
+        "new StandupDrafterStack (/home/jawad533/Kiro Project/lib/standup-drafter-stack.ts:37:31)",
+        "<anonymous> (/home/jawad533/Kiro Project/bin/standup-drafter.ts:8:1)",
+        "...node internals, ts-node, ts-node..."
+      ]
+    }
+  ],
+  "/StandupDrafterStack/StandupApi/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "StandupApi173582CD"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new RestApi2 in aws-cdk-lib...",
+        "new StandupDrafterStack (/home/jawad533/Kiro Project/lib/standup-drafter-stack.ts:54:17)",
+        "<anonymous> (/home/jawad533/Kiro Project/bin/standup-drafter.ts:8:1)",
+        "...node internals, ts-node, ts-node..."
+      ]
+    }
+  ],
+  "/StandupDrafterStack/StandupApi/Endpoint": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "StandupApiEndpoint56FFB834"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new RestApi2 in aws-cdk-lib...",
+        "new StandupDrafterStack (/home/jawad533/Kiro Project/lib/standup-drafter-stack.ts:54:17)",
+        "<anonymous> (/home/jawad533/Kiro Project/bin/standup-drafter.ts:8:1)",
+        "...node internals, ts-node, ts-node..."
+      ]
+    }
+  ],
+  "/StandupDrafterStack/WebsiteBucket/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "WebsiteBucket75C24D94"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new Bucket2 in aws-cdk-lib...",
+        "new StandupDrafterStack (/home/jawad533/Kiro Project/lib/standup-drafter-stack.ts:108:27)",
+        "<anonymous> (/home/jawad533/Kiro Project/bin/standup-drafter.ts:8:1)",
+        "...node internals, ts-node, ts-node..."
+      ]
+    },
+    {
+      "type": "aws:cdk:analytics:mixin",
+      "data": {
+        "mixin": "aws-cdk-lib.aws_s3.mixins.BucketAutoDeleteObjects"
+      }
+    }
+  ],
+  "/StandupDrafterStack/Custom::S3AutoDeleteObjectsCustomResourceProvider/Role": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CustomS3AutoDeleteObjectsCustomResourceProviderRole3B1BD092"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/StandupDrafterStack/Custom::S3AutoDeleteObjectsCustomResourceProvider/Handler": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CustomS3AutoDeleteObjectsCustomResourceProviderHandler9D90184F"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/StandupDrafterStack/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C81C01536"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new BucketDeployment2 in aws-cdk-lib...",
+        "new StandupDrafterStack (/home/jawad533/Kiro Project/lib/standup-drafter-stack.ts:122:5)",
+        "<anonymous> (/home/jawad533/Kiro Project/bin/standup-drafter.ts:8:1)"
+      ]
+    }
+  ],
+  "/StandupDrafterStack/CDKMetadata/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadata"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/StandupDrafterStack/CDKMetadata/Condition": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CDKMetadataAvailable"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib, node internals...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/StandupDrafterStack/GeneratorFunction/ServiceRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GeneratorFunctionServiceRole0D2E0546"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new Function2 in aws-cdk-lib...",
+        "new StandupDrafterStack (/home/jawad533/Kiro Project/lib/standup-drafter-stack.ts:37:31)",
+        "<anonymous> (/home/jawad533/Kiro Project/bin/standup-drafter.ts:8:1)",
+        "...node internals, ts-node, ts-node..."
+      ]
+    }
+  ],
+  "/StandupDrafterStack/StandupApi/Deployment/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "StandupApiDeployment884290BDa74d1ac18475932fdf8663f353706c8f"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new RestApi2 in aws-cdk-lib...",
+        "new StandupDrafterStack (/home/jawad533/Kiro Project/lib/standup-drafter-stack.ts:54:17)",
+        "<anonymous> (/home/jawad533/Kiro Project/bin/standup-drafter.ts:8:1)",
+        "...node internals, ts-node..."
+      ]
+    }
+  ],
+  "/StandupDrafterStack/StandupApi/DeploymentStage.prod/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "StandupApiDeploymentStageprodDD0B3074"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new RestApi2 in aws-cdk-lib...",
+        "new StandupDrafterStack (/home/jawad533/Kiro Project/lib/standup-drafter-stack.ts:54:17)",
+        "<anonymous> (/home/jawad533/Kiro Project/bin/standup-drafter.ts:8:1)",
+        "...node internals, ts-node..."
+      ]
+    }
+  ],
+  "/StandupDrafterStack/WebsiteBucket/Policy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "WebsiteBucketPolicyE10E3262"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    },
+    {
+      "type": "aws:cdk:analytics:mixin",
+      "data": {
+        "mixin": "aws-cdk-lib.aws_s3.mixins.BucketPolicyStatements"
+      }
+    }
+  ],
+  "/StandupDrafterStack/WebsiteBucket/AutoDeleteObjectsCustomResource/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "WebsiteBucketAutoDeleteObjectsCustomResource8750E461"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/StandupDrafterStack/DeployWebsite/AwsCliLayer/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DeployWebsiteAwsCliLayer17DBC421"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new BucketDeployment2 in aws-cdk-lib...",
+        "new StandupDrafterStack (/home/jawad533/Kiro Project/lib/standup-drafter-stack.ts:122:5)",
+        "<anonymous> (/home/jawad533/Kiro Project/bin/standup-drafter.ts:8:1)",
+        "...node internals, ts-node..."
+      ]
+    }
+  ],
+  "/StandupDrafterStack/DeployWebsite/CustomResource/Default": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "DeployWebsiteCustomResourceD116527B"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new BucketDeployment2 in aws-cdk-lib...",
+        "new StandupDrafterStack (/home/jawad533/Kiro Project/lib/standup-drafter-stack.ts:122:5)",
+        "<anonymous> (/home/jawad533/Kiro Project/bin/standup-drafter.ts:8:1)",
+        "...node internals, ts-node..."
+      ]
+    }
+  ],
+  "/StandupDrafterStack/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C/ServiceRole/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756CServiceRole89A01265"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/StandupDrafterStack/GeneratorFunction/ServiceRole/DefaultPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "GeneratorFunctionServiceRoleDefaultPolicyED608EC2"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/StandupDrafterStack/StandupApi/Default/OPTIONS/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "StandupApiOPTIONS2D12E08F"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...new RestApi2 in aws-cdk-lib...",
+        "new StandupDrafterStack (/home/jawad533/Kiro Project/lib/standup-drafter-stack.ts:54:17)"
+      ]
+    }
+  ],
+  "/StandupDrafterStack/StandupApi/Default/generate/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "StandupApigenerateCF7FC619"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...RootResource.addResource in aws-cdk-lib...",
+        "new StandupDrafterStack (/home/jawad533/Kiro Project/lib/standup-drafter-stack.ts:71:39)",
+        "<anonymous> (/home/jawad533/Kiro Project/bin/standup-drafter.ts:8:1)",
+        "...node internals, ts-node, ts-node..."
+      ]
+    }
+  ],
+  "/StandupDrafterStack/StandupApi/Default/history/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "StandupApihistory3A7249BE"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...RootResource.addResource in aws-cdk-lib...",
+        "new StandupDrafterStack (/home/jawad533/Kiro Project/lib/standup-drafter-stack.ts:86:38)",
+        "<anonymous> (/home/jawad533/Kiro Project/bin/standup-drafter.ts:8:1)",
+        "...node internals, ts-node, ts-node..."
+      ]
+    }
+  ],
+  "/StandupDrafterStack/Custom::CDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756C/ServiceRole/DefaultPolicy/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "CustomCDKBucketDeployment8693BB64968944B69AAFB0CC9EB8756CServiceRoleDefaultPolicy88902FDF"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...aws-cdk-lib...",
+        "(no user code in 10 frames, use --stack-trace-limit to capture more)"
+      ]
+    }
+  ],
+  "/StandupDrafterStack/StandupApi/Default/generate/OPTIONS/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "StandupApigenerateOPTIONS9B9BD297"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...RootResource.addResource in aws-cdk-lib...",
+        "new StandupDrafterStack (/home/jawad533/Kiro Project/lib/standup-drafter-stack.ts:71:39)",
+        "<anonymous> (/home/jawad533/Kiro Project/bin/standup-drafter.ts:8:1)"
+      ]
+    }
+  ],
+  "/StandupDrafterStack/StandupApi/Default/generate/POST/ApiPermission.StandupDrafterStackStandupApi73E54957.POST..generate": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "StandupApigeneratePOSTApiPermissionStandupDrafterStackStandupApi73E54957POSTgenerateAC5EFFC9"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...WrappedClass.addMethod in aws-cdk-lib...",
+        "new StandupDrafterStack (/home/jawad533/Kiro Project/lib/standup-drafter-stack.ts:72:22)",
+        "<anonymous> (/home/jawad533/Kiro Project/bin/standup-drafter.ts:8:1)",
+        "...node internals, ts-node..."
+      ]
+    }
+  ],
+  "/StandupDrafterStack/StandupApi/Default/generate/POST/ApiPermission.Test.StandupDrafterStackStandupApi73E54957.POST..generate": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "StandupApigeneratePOSTApiPermissionTestStandupDrafterStackStandupApi73E54957POSTgenerate490E8A1C"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...WrappedClass.addMethod in aws-cdk-lib...",
+        "new StandupDrafterStack (/home/jawad533/Kiro Project/lib/standup-drafter-stack.ts:72:22)",
+        "<anonymous> (/home/jawad533/Kiro Project/bin/standup-drafter.ts:8:1)",
+        "...node internals, ts-node..."
+      ]
+    }
+  ],
+  "/StandupDrafterStack/StandupApi/Default/generate/POST/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "StandupApigeneratePOST40E049C2"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...WrappedClass.addMethod in aws-cdk-lib...",
+        "new StandupDrafterStack (/home/jawad533/Kiro Project/lib/standup-drafter-stack.ts:72:22)",
+        "<anonymous> (/home/jawad533/Kiro Project/bin/standup-drafter.ts:8:1)",
+        "...node internals, ts-node, ts-node..."
+      ]
+    }
+  ],
+  "/StandupDrafterStack/StandupApi/Default/history/OPTIONS/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "StandupApihistoryOPTIONSDFF526D4"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...RootResource.addResource in aws-cdk-lib...",
+        "new StandupDrafterStack (/home/jawad533/Kiro Project/lib/standup-drafter-stack.ts:86:38)",
+        "<anonymous> (/home/jawad533/Kiro Project/bin/standup-drafter.ts:8:1)"
+      ]
+    }
+  ],
+  "/StandupDrafterStack/StandupApi/Default/history/GET/ApiPermission.StandupDrafterStackStandupApi73E54957.GET..history": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "StandupApihistoryGETApiPermissionStandupDrafterStackStandupApi73E54957GEThistory537E0B41"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...WrappedClass.addMethod in aws-cdk-lib...",
+        "new StandupDrafterStack (/home/jawad533/Kiro Project/lib/standup-drafter-stack.ts:87:21)",
+        "<anonymous> (/home/jawad533/Kiro Project/bin/standup-drafter.ts:8:1)",
+        "...node internals, ts-node..."
+      ]
+    }
+  ],
+  "/StandupDrafterStack/StandupApi/Default/history/GET/ApiPermission.Test.StandupDrafterStackStandupApi73E54957.GET..history": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "StandupApihistoryGETApiPermissionTestStandupDrafterStackStandupApi73E54957GEThistory5F2E9FE5"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...WrappedClass.addMethod in aws-cdk-lib...",
+        "new StandupDrafterStack (/home/jawad533/Kiro Project/lib/standup-drafter-stack.ts:87:21)",
+        "<anonymous> (/home/jawad533/Kiro Project/bin/standup-drafter.ts:8:1)",
+        "...node internals, ts-node..."
+      ]
+    }
+  ],
+  "/StandupDrafterStack/StandupApi/Default/history/GET/Resource": [
+    {
+      "type": "aws:cdk:logicalId",
+      "data": "StandupApihistoryGET359518C4"
+    },
+    {
+      "type": "aws:cdk:creationStack",
+      "data": [
+        "...WrappedClass.addMethod in aws-cdk-lib...",
+        "new StandupDrafterStack (/home/jawad533/Kiro Project/lib/standup-drafter-stack.ts:87:21)",
+        "<anonymous> (/home/jawad533/Kiro Project/bin/standup-drafter.ts:8:1)",
+        "...node internals, ts-node, ts-node..."
+      ]
+    }
+  ]
+}

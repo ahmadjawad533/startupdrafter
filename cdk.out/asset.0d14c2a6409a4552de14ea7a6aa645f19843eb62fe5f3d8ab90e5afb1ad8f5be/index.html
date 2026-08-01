@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StandupDrafter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>StandupDrafter</h1>
+        <p>Transform your work notes into professional status updates</p>
+    </header>
+    
+    <main>
+        <!-- Error Section -->
+        <div id="errorMessage" class="error-message" style="display: none;"></div>
+        
+        <!-- Loading Indicator -->
+        <div id="loadingIndicator" class="loading-indicator" style="display: none;">
+            <div class="spinner"></div>
+            <p>Generating update...</p>
+        </div>
+        
+        <!-- Input Section -->
+        <section class="input-section">
+            <h2>Your Notes</h2>
+            <textarea 
+                id="notesInput" 
+                placeholder="Paste your rough work notes here...&#10;&#10;Example:&#10;- Fixed login bug&#10;- Working on dashboard feature&#10;- Blocked on API access"
+                rows="8"
+            ></textarea>
+            <button id="generateBtn" class="btn btn-primary">Generate Update</button>
+        </section>
+        
+        <!-- Output Section -->
+        <section class="output-section">
+            <h2>Generated Update</h2>
+            <div id="outputArea" class="output-area">
+                <p class="placeholder">Your formatted status update will appear here...</p>
+            </div>
+            <button id="copyBtn" class="btn btn-secondary" style="display: none;">Copy to Clipboard</button>
+        </section>
+        
+        <!-- History Section -->
+        <section class="history-section">
+            <h2>Update History</h2>
+            <ul id="historyList" class="history-list">
+                <li class="placeholder">No updates yet. Generate your first update above!</li>
+            </ul>
+        </section>
+    </main>
+    
+    <script>
+        // Set the API Gateway endpoint before loading app.js
+        window.__API_BASE_URL__ = 'https://dztcpijpbh.execute-api.us-east-1.amazonaws.com/prod';
+    </script>
+    <script src="app.js"></script>
+</body>
+</html>
